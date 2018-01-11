@@ -1,0 +1,898 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OnePress Module\n"
+"POT-Creation-Date: 2016-05-13 12:04+0300\n"
+"PO-Revision-Date: 2016-05-13 12:07+0300\n"
+"Last-Translator: alex.kovalevv@gmail.com <alex.kovalevv@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/license-manager.class.php:63
+msgid "License Manager"
+msgstr "Лицензирование"
+
+#: includes/license-manager.class.php:120
+msgid "Please enter your license key to continue."
+msgstr "Пожалуйста, введите ваш лицензионный ключ для продолжения."
+
+#: includes/license-manager.class.php:163 includes/license-manager.class.php:865
+msgid "Hide License Manager"
+msgstr "Скрыть лицензионный менеджер"
+
+#: includes/license-manager.class.php:173
+msgid "The key has been deleted successfully."
+msgstr "Ключ успешно удален."
+
+#: includes/license-manager.class.php:174
+msgid ""
+"Please check the <a href=\"plugins.php\">Plugins</a> page and update the "
+"plugin to complete deletion if it's needed."
+msgstr ""
+"Пожалуйста, перейдите на <a href=\"plugins.php\">страницу Плагины</a>и "
+"обновите плагин, чтобы завершить деактивацию ключа, если это необходимо."
+
+#: includes/license-manager.class.php:180
+msgid "Your license details have been reset successfully."
+msgstr "Ваши лицензионные данные были успешно сброшены."
+
+#: includes/license-manager.class.php:186
+msgid "The updates have been checked successfully."
+msgstr "Проверка обновлений прошла успешна."
+
+#: includes/license-manager.class.php:189
+msgid "You use the actual version of the plugin."
+msgstr "Вы используете последнюю версию плагина."
+
+#: includes/license-manager.class.php:193
+#, php-format
+msgid ""
+"You need to upgrade to the %1$s version. <a href=\"plugins.php\">Click here</"
+"a> to get the update."
+msgstr ""
+"Вам необходимо обновить плагин до %1$s версии. Пожалуйста, <a href=\"plugins."
+"php\">нажмите здесь</a>, чтобы установить обновление."
+
+#: includes/license-manager.class.php:196
+#, php-format
+msgid ""
+"The %1$s version is available to download. <a href=\"plugins.php\">Click "
+"here</a> to get the update."
+msgstr ""
+"Версия %1$s доступна для загрузки. Пожалуйста, <a href=\"plugins.php"
+"\">нажмите здесь</a>, чтобы установить обновление."
+
+#: includes/license-manager.class.php:213
+#, php-format
+msgid "Upgrade to Premium for %1$s"
+msgstr "Обновить до премиум версии за %1$s"
+
+#: includes/license-manager.class.php:215
+msgid "Upgrade to Premium"
+msgstr "Обновить до премиум версии"
+
+#: includes/license-manager.class.php:225
+#, php-format
+msgid "Get Key For %1$s Only"
+msgstr "Получить ключ за %1$s "
+
+#: includes/license-manager.class.php:227
+msgid "Get Premium Key"
+msgstr "Получить лицензионный ключ"
+
+#: includes/license-manager.class.php:234
+msgid "Your current license:"
+msgstr "Ваша текущая лицензия"
+
+#: includes/license-manager.class.php:236
+#, php-format
+msgid "Your current license for %1$s:"
+msgstr "Ваша текущая лицензия для %1$s:"
+
+#: includes/license-manager.class.php:241
+msgid "Delete Key"
+msgstr "Удалить ключ"
+
+#: includes/license-manager.class.php:254
+msgid ""
+"Please, activate the plugin to unlock its features. Enter the key you "
+"received with the plugin into the form below. Don't know where the key is? <a "
+"href=\"#\" id=\"open-faq\">Click here</a>."
+msgstr ""
+"Пожалуйста введите ваш ключ, который вы получили во время покупки, в поле "
+"ниже, чтобы активировать плагин и приступить к работе. "
+
+#: includes/license-manager.class.php:258
+msgid ""
+"Please, activate the plugin to unlock its features. Enter the key you "
+"received with the plugin into the form below."
+msgstr ""
+"Пожалуйста активируйте плагин, чтобы приступить к работе. Введите ключ, "
+"который вы получили, в поле ниже."
+
+#: includes/license-manager.class.php:263
+#, php-format
+msgid ""
+"Also you can activate a <a href=\"%1$s\">trial version</a> for 7 days to test "
+"the plugin on this site."
+msgstr ""
+"Так же вы можете <a href=\"%1$s\">активировать</a> 7-ми дневную пробную "
+"версию для тестирования плагина на этом сайте."
+
+#: includes/license-manager.class.php:271
+msgid ""
+"Public License is a GPLv2 compatible license allowing you to change and use "
+"this version of the plugin for free. Please keep in mind this license covers "
+"only free edition of the plugin. Premium versions are distributed with other "
+"type of a license."
+msgstr ""
+"Public License это GPLv2-совместимая лицензия, которая позволяет изменять и "
+"использовать эту версию плагина бесплатно. Пожалуйста, имейте в виду, что эта "
+"лицензия относиться только к бесплатной редакции плагина. Премимум версии "
+"плагина распространяются в рамках другой лицензии."
+
+#: includes/license-manager.class.php:275
+#, php-format
+msgid ""
+"You can <a href=\"%1$s\">activate</a> a premium version for a trial period (7 "
+"days)."
+msgstr ""
+"Так же вы можете <a href=\"%1$s\">активировать</a> премимум версию плагин на "
+"пробный период в 7 дней."
+
+#: includes/license-manager.class.php:276
+#, php-format
+msgid ""
+"Or click <a target=\"_blank\" href=\"%1$s\">here</a> to learn more about the "
+"premium version."
+msgstr ""
+"Нажмите <a target=\"_blank\" href=\"%1$s\">здесь</a> чтобы узнать больше о "
+"премиум версии плагина."
+
+#: includes/license-manager.class.php:289
+msgid "domain"
+msgstr "домен"
+
+#: includes/license-manager.class.php:292
+msgid "version"
+msgstr "версия"
+
+#: includes/license-manager.class.php:295 includes/license-manager.class.php:312
+msgid "up-to-date"
+msgstr "последняя"
+
+#: includes/license-manager.class.php:300
+#, php-format
+msgid "upgrade to %s"
+msgstr "обновить до %s"
+
+#: includes/license-manager.class.php:306
+msgid "available"
+msgstr "доступна"
+
+#: includes/license-manager.class.php:317
+msgid "assembly"
+msgstr "сборка"
+
+#: includes/license-manager.class.php:321
+msgid "EXPIRED!"
+msgstr "ПРОСРОЧЕН!"
+
+#: includes/license-manager.class.php:322
+msgid "please update the key"
+msgstr "пожалуйста, обновите ключ"
+
+#: includes/license-manager.class.php:325
+msgid "infinity"
+msgstr "бессрочный"
+
+#: includes/license-manager.class.php:326
+msgid "day(s)"
+msgstr "дн."
+
+#: includes/license-manager.class.php:329
+msgid "remained"
+msgstr "осталось"
+
+#: includes/license-manager.class.php:340
+msgid "Have a key to activate the premium version? Paste it here:"
+msgstr "Есть ключ для активации премиум версии? Вставьте его здесь:"
+
+#: includes/license-manager.class.php:342
+msgid "Have a key to activate the plugin? Paste it here:"
+msgstr "Есть ключ для активации плагина? Вставьте его здесь:"
+
+#: includes/license-manager.class.php:346
+msgid "Submit Key"
+msgstr "Отправить"
+
+#: includes/license-manager.class.php:354
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Lean more</a> about the premium version and get the license "
+"key to activate it now!"
+msgstr ""
+"Нет ключа? <a href=\"%1$s\">Узнайте больше</a> о премиум версии и получите "
+"лицензионный ключ для активации сейчас."
+
+#: includes/license-manager.class.php:358
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Lean more</a> about this plugin and get the license key to "
+"activate it now!"
+msgstr ""
+"Нет ключа? <a href=\"%1$s\">Нажмите здесь</a>, чтобы приобрести лицензионный "
+"ключ для активации."
+
+#: includes/license-manager.class.php:368
+#, php-format
+msgid "The upadtes were checked at <strong>%1$s</strong>."
+msgstr "Последная проверка обновлений произошла - <strong>%1$s</strong>."
+
+#: includes/license-manager.class.php:370
+msgid "The updates were checked <strong>never</strong>."
+msgstr "Проверка обновлений еще <strong>ни разу</strong> не происходила."
+
+#: includes/license-manager.class.php:374
+#, php-format
+msgid ""
+"The updates were checked at <strong>%1$s</strong>, you use the up-to-date "
+"version. "
+msgstr "Последная проверка обновлений произошла - <strong>%1$s</strong>."
+
+#: includes/license-manager.class.php:376
+#, php-format
+msgid ""
+"The updates were checked at <strong>%1$s</strong>, <strong>%2$s</strong>. "
+msgstr ""
+"Последная проверка обновлений произошла - <strong>%1$s</strong>, <strong>"
+"%2$s</strong>. "
+
+#: includes/license-manager.class.php:379
+#, php-format
+msgid "Click <a href=\"%1$s\">here</a> to check updates manually."
+msgstr "<a href=\"%1$s\">Нажмите здесь</a> чтобы проверить обновления вручную."
+
+#: includes/license-manager.class.php:381
+msgid "internal keys"
+msgstr "коды"
+
+#: includes/license-manager.class.php:390
+msgid ""
+"I purchased the plugin on CodeCanyon, but I cannot find the license key. "
+"Where is it?"
+msgstr "Я купил плагин, но я не могу найти лицензионный ключ. Где он?"
+
+#: includes/license-manager.class.php:394
+msgid ""
+"If you purchased the plugin on CodeCanyon, visit your Downloads section and "
+"click Licence Certificate."
+msgstr ""
+"После покупки посетите раздел Downloads и нажмите на ссылку Licence "
+"Certificate."
+
+#: includes/license-manager.class.php:395
+msgid ""
+"Find Item Purchase Code in the text document and paste it into the form above."
+msgstr ""
+"В текстовом документе найдите \"Item Purchase Code\" и вставьте его в форму."
+
+#: includes/license-manager.class.php:404
+msgid ""
+"The plugin I purchased comes with the bonus. Where I can find a key to "
+"activate the bonus?"
+msgstr ""
+"Плагин, который я купил, продавался вместе с бонусом. Где я могу найти ключ "
+"для активации бонуса?"
+
+#: includes/license-manager.class.php:408
+msgid ""
+"You can activate the bonus plugin via the key you got for the principal "
+"plugin."
+msgstr ""
+"Вы можете активировать бонусный плагин с помощью ключа, который вы получили "
+"для основного плагина."
+
+#: includes/license-manager.class.php:414
+msgid "Is it possible to get the premium version without the License Manager?"
+msgstr "Возможно ли получить премиум версию без встроенного менеджера лицензий?"
+
+#: includes/license-manager.class.php:418
+msgid ""
+"Yes, it's possible if you want to distribute the plugin as a part of your "
+"product. Please contact us to discuss details: support@onepress-media.com"
+msgstr ""
+"Да, это возможно, если вы хотите распространяет плагин, как часть вашего "
+"собственного продукта. Пожалуйста свяжитесь с нами для обсуждения деталей: "
+"support@onepress-media.com"
+
+#: includes/license-manager.class.php:424
+msgid ""
+"I see the message \"... Please install another plugin assembly (premium) ..."
+"\". How to fix?"
+msgstr ""
+"Я вижу сообщение \"... Пожалуйста, установите другую сборку плагина "
+"(Премиум) ... \".  Как это исправить?"
+
+#: includes/license-manager.class.php:428
+#, php-format
+msgid ""
+"If you upgraded the plugin from the free version up to the premium version, "
+"it's okay, just visit the page <a href=\"%s\"><strong>Plugins</strong></a> "
+"and download the update."
+msgstr ""
+"Если вы обновили плагин от бесплатной версии к премиум, это нормально, просто "
+"перейдите на страницу <a href=\"%s\"><strong>Плагины</strong></a> и загрузите "
+"обновление."
+
+#: includes/license-manager.class.php:429
+#, php-format
+msgid ""
+"If you have been using the premium version and now would like to use the free "
+"version but get this message, <a href=\"%s\"><strong>click here</strong></a> "
+"to reset your license details."
+msgstr ""
+"Если вы использовали премиум-версию и теперь хотели бы использовать "
+"бесплатную версию, но получили это сообщение, <a href=\"%s\"><strong>нажмите "
+"здесь</strong></a>, чтобы сбросить лицензионные данные."
+
+#: includes/license-manager.class.php:456
+msgid "Okay, I got it"
+msgstr "Спасибо, понятно"
+
+#: includes/license-manager.class.php:463
+msgid "Congratulations! you've successfully activated a trial version"
+msgstr "Поздравляем! Вы успешно активировали пробную версию"
+
+#: includes/license-manager.class.php:465
+#, php-format
+msgid "Thank you for using %s. The plugin is ready."
+msgstr "Спасибо за использование %s. Плагин готов."
+
+#: includes/license-manager.class.php:468
+msgid "Good job!"
+msgstr "Хорошая работа!"
+
+#: includes/license-manager.class.php:469
+msgid "The plugin is ready to use."
+msgstr "Плагин готов к использованию."
+
+#: includes/license-manager.class.php:471 includes/license-manager.class.php:582
+msgid "Congratulations! you've successfully activated your key"
+msgstr "Вы успешно активировали лицензионный ключ!"
+
+#: includes/license-manager.class.php:473
+msgid ""
+"You can transfer your key to another site at any time via your customer "
+"account."
+msgstr ""
+"Вы можете перенести этой ​​ключ на другой сайт в любое время через ваш личный "
+"кабинет."
+
+#: includes/license-manager.class.php:481
+msgid "Your trial key will expire in "
+msgstr "Ваш пробный ключ истекает через "
+
+#: includes/license-manager.class.php:486
+msgid "day(s)."
+msgstr "дн."
+
+#: includes/license-manager.class.php:489
+#, php-format
+msgid "The key has been bound to your account (<strong>%s</strong>)."
+msgstr "Последная проверка обновлений произошла - <strong>%s</strong>."
+
+#: includes/license-manager.class.php:491
+msgid ""
+"You can log in to your account at any time to manage your key by using the "
+"login details sent you via email earlier:"
+msgstr ""
+"В любой момент вы можете войти в свою учетную запись (с помощью "
+"регистрационных данных, ранее отправленных вам по электронной почте) и "
+"изменить домен, к которому привязан ваш ключ:"
+
+#: includes/license-manager.class.php:495
+msgid "Thank you for activating your license key."
+msgstr "Спасибо за активацию вашего лицензионного ключа."
+
+#: includes/license-manager.class.php:499
+msgid ""
+"Please move to the Plugins page and download the update to complete "
+"activation."
+msgstr ""
+"Пожалуйста, перейдите на <a href=\"plugins.php\">страницу Плагины </a> и "
+"обновите плагин, чтобы завершить активацию, если это необходимо."
+
+#: includes/license-manager.class.php:502
+msgid "Open the Plugins page"
+msgstr "Открыть страницу \"Плагины\""
+
+#: includes/license-manager.class.php:505
+msgid "Please feel free to contact us if you need any help."
+msgstr ""
+"Если вам нужная какая-либо помощь, не стесняетесь обращаться к нам. Мы всегда "
+"рады вам помочь."
+
+#: includes/license-manager.class.php:545
+msgid "Please enter your email adress to create a customer account."
+msgstr ""
+"Чтобы создать аккаунт, пожалуйста, введите свой ​​адрес электронной почты."
+
+#: includes/license-manager.class.php:583
+msgid ""
+"You can start using the plugin right now, but we recommend you to make one "
+"more step ..."
+msgstr ""
+"Вы можете начать использовать плагин прямо сейчас, но мы рекомендуем Вам "
+"сделать еще кое-что ..."
+
+#: includes/license-manager.class.php:587
+msgid "Your license key is not bound to your email address!"
+msgstr "Ваш лицензионный ключ не привязан к вашему адресу электронной почты!"
+
+#: includes/license-manager.class.php:596
+msgid "The incorrect account has been canceled successfully"
+msgstr "Отмена создание учетной записи прошла успешно"
+
+#: includes/license-manager.class.php:597
+msgid "Please be careful when typing your email address."
+msgstr ""
+"Пожалуйста, будьте внимательны при вводе адреса вашей электронной почты."
+
+#: includes/license-manager.class.php:605
+msgid "It's time to protect your license key"
+msgstr "Необходимо защитить ваш лицензионный ключ"
+
+#: includes/license-manager.class.php:611
+msgid ""
+"Enter your email address to bind the license key. We will create a customer "
+"account for you by using your email address. After that, you will be able to:"
+msgstr ""
+"Введите адрес электронной почты для привязки вашего лицензионного ключа. Мы "
+"создадим для вас учетную запись. После этого, вы сможете:"
+
+#: includes/license-manager.class.php:613
+msgid "View where your key is used."
+msgstr "Увидеть, где активирован и используют ваш ключ."
+
+#: includes/license-manager.class.php:614
+msgid "Remove the key for sites where it's activated."
+msgstr "Деактивировать ваш ключ для выбранных сайтов в любой момент."
+
+#: includes/license-manager.class.php:615
+msgid "Transfer the key to another sites."
+msgstr "Перенести ключ на другой сайт."
+
+#: includes/license-manager.class.php:623
+#, php-format
+msgid ""
+"I want to get news regarding the <strong>%s</strong> plugin and exclusive "
+"offers from OnePress (a few emails a month)."
+msgstr ""
+"Я хочу получать новости о <strong>%s</strong> и эксклюзивных предложений от "
+"OnePress (всего несколько писем в месяц)."
+
+#: includes/license-manager.class.php:629
+msgid "Protect & Create Account"
+msgstr "Защитить ключ и создать учетную запись"
+
+#: includes/license-manager.class.php:630
+msgid "(The login details will be sent via email)"
+msgstr "</br>(данные для входа будут отправлены по электронной почте)"
+
+#: includes/license-manager.class.php:653
+msgid "Please enter your email adress."
+msgstr "Пожалуйста, введите свой ​​адрес электронной почты."
+
+#: includes/license-manager.class.php:678
+msgid ""
+"A customer with the specified email already registered. Are you sure to bind "
+"your key to this email?"
+msgstr ""
+"Пользователь с указанным адресом электронной почты уже зарегистрирован. Вы "
+"уверены, что хотите привязать ваш ключ к этому адресу?"
+
+#: includes/license-manager.class.php:684
+msgid ""
+"On all probability, you created a customer account in past to bind another "
+"key. If  it's your email, no problem, just click the confirmation button "
+"below."
+msgstr ""
+"Скорее всего вы уже создали учетную запись ранее для того, чтобы привязать "
+"другой ключ. Если этот электронный почтовый адрес действительно ваш, просто "
+"нажмите на кнопку подвеждения ниже."
+
+#: includes/license-manager.class.php:685
+msgid "If it's not email (you entered  your email incorrectly), return back."
+msgstr ""
+"Если это не ваш электронный адрес (например, если вы ввели адрес "
+"неправильно), вернитесь обратно."
+
+#: includes/license-manager.class.php:686
+msgid "Email:"
+msgstr "Email:"
+
+#: includes/license-manager.class.php:687
+#, php-format
+msgid ""
+"You can try to log in via this email <a href=\"%s\" target=\"_blank\">here</"
+"a>."
+msgstr ""
+"Вы можете попробовать войти в свою учетную запись <a href=\"%s\" target="
+"\"_blank\">здесь</a>."
+
+#: includes/license-manager.class.php:689
+msgid "Yes, this is my email"
+msgstr "Да, это мой email"
+
+#: includes/license-manager.class.php:690
+msgid "No, return back"
+msgstr "Нет, вернуться обратно"
+
+#: includes/license-manager.class.php:716
+msgid "Your customer account has been successfully created!"
+msgstr "Ваша учетная запись успешно создана!"
+
+#: includes/license-manager.class.php:717
+msgid ""
+"We have sent the login details and the confirmation link to your email "
+"address."
+msgstr ""
+"Мы выслали данные для входа и ссылку для подтверждения вашей учетной записи "
+"на ваш электронный адрес."
+
+#: includes/license-manager.class.php:725
+msgid "Please perform these simple final steps:"
+msgstr "Пожалуйста, выполните эти простые шаги:"
+
+#: includes/license-manager.class.php:731
+#, php-format
+msgid "Visit your email box <strong>%s</strong>."
+msgstr "Посетите Ваш почтовый ящик <strong>%s</strong>."
+
+#: includes/license-manager.class.php:735
+msgid ""
+"Confirm your email address by clicking the link inside the email we sent."
+msgstr ""
+"Подтвердите адрес электронной почты, нажав на ссылку в письме, которое мы вам "
+"выслали."
+
+#: includes/license-manager.class.php:740
+msgid "Okay, done"
+msgstr "Хорошо, сделано!"
+
+#: includes/license-manager.class.php:742
+msgid "I've mistaken. It's not my email address."
+msgstr "Я ошибся. Это не мой адрес электронной почты."
+
+#: includes/license-manager.class.php:798
+msgid "The request has been rejected by the Licensing Server"
+msgstr "Запрос был отклонен сервером лицензирования."
+
+#: includes/license-manager.class.php:803
+msgid "Unable to connect to the Licensing Server"
+msgstr "Неполучилось подключиться к серверу лицензирования."
+
+#: includes/license-manager.class.php:808
+#, php-format
+msgid ""
+"Please <a href=\"%s\">click here</a> for trying to activate your key manualy."
+msgstr ""
+"Пожалуйста, <a href=\"%s\">нажмите здесь</a>, чтобы попробывать активировать "
+"ключ вручную."
+
+#: includes/license-manager.class.php:813
+#, php-format
+msgid ""
+"Please <a href=\"%s\">click here</a> for trying to activate your trial "
+"manualy."
+msgstr ""
+"Пожалуйста, <a href=\"%s\">нажмите здесь</a>, чтобы попробывать активировать "
+"пробную версию вручную."
+
+#: includes/license-manager.class.php:818
+#, php-format
+msgid "Please <a href=\"%s\">click here</a> for trying to delete key manualy."
+msgstr ""
+"Пожалуйста, <a href=\"%s\">нажмите здесь</a>, чтобы попробывать удалить ключ "
+"вручную."
+
+#: includes/license-manager.class.php:823
+msgid "Please contact OnePress support if you need to perform this action."
+msgstr ""
+"Пожалуйста, свяжитесь с нашей службой поддержки, если вам нужно выполнить это "
+"действие."
+
+#: includes/license-manager.class.php:830
+msgid "Unable to apply the specified key"
+msgstr "Не удалось использовать указанный ключ."
+
+#: includes/license-manager.class.php:854
+msgid "Hiding License Manager"
+msgstr "Скрыть лицензионный менеджер"
+
+#: includes/license-manager.class.php:858
+msgid ""
+"<strong>Warning!</strong> The License Manager will get inaccessible when you "
+"click the button \"Hide License Manager\"."
+msgstr ""
+"<strong>Внимание!</strong> Лицензионный менеджер будет недоступен, если вы "
+"нажмете \"Скрыть лицензионный менеджер\"."
+
+#: includes/license-manager.class.php:859
+#, php-format
+msgid ""
+"To restore access to the License Manager, you will need to clear the option "
+"<strong>%s</strong> on the page <strong>options.php</strong>:"
+msgstr ""
+"Для восстановления доступа к лицензионному менеджеру, вам необходимо будет "
+"очистить параметр <strong>%s</strong> на странице <strong>options.php</"
+"strong>:"
+
+#: includes/license-manager.class.php:866
+msgid "Return Back"
+msgstr "Вернуться обратно"
+
+#: includes/license-manager.class.php:949
+msgid "Key Activation"
+msgstr " Активация ключа"
+
+#: includes/license-manager.class.php:950
+msgid "Please perform the following steps to activate the plugin manually."
+msgstr ""
+"Пожалуйста, следуйте инструкции ниже, чтобы активировать плагин вручную."
+
+#: includes/license-manager.class.php:953
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Click here</a> to get an activation code."
+msgstr "<a href=\"%s\">Нажмите здесь</a> чтобы получить код активации."
+
+#: includes/license-manager.class.php:956
+msgid "Copy the code and paste it below, then submit the form:"
+msgstr ""
+"Скопируйте код с сайта и вставьте его в поле ниже, затем отправьте форму."
+
+#: includes/license-manager.class.php:957
+msgid "Activation Code"
+msgstr "Код активации"
+
+#: includes/license-manager.class.php:961
+msgid "Verify Code"
+msgstr "Отправить"
+
+#: includes/license-manager.class.php:992
+msgid "Key Deactivation"
+msgstr "Деактивация ключа"
+
+#: includes/license-manager.class.php:993
+#: includes/license-manager.class.php:1034
+msgid "Please perfome the following steps to activate the plugin manualy."
+msgstr "Пожалуйста выполните шаги ниже, чтобы активировать плагин вручную."
+
+#: includes/license-manager.class.php:996
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Click here</a> to send the deactivation "
+"request."
+msgstr ""
+"<a href=\"%s\">Нажмите здесь</a> чтобы отправить запрос на деактивацию ключа."
+
+#: includes/license-manager.class.php:999
+#: includes/license-manager.class.php:1040
+msgid ""
+"Copy the code from the field on the site and paste it below, then submit the "
+"form:"
+msgstr ""
+"Скопируйте код с сайт и вставьте его в поле ниже, затем отправьте форму."
+
+#: includes/license-manager.class.php:1000
+#: includes/license-manager.class.php:1041
+msgid "Response code from the Licensing Server"
+msgstr "Код ответа от сервера лицензирования"
+
+#: includes/license-manager.class.php:1004
+#: includes/license-manager.class.php:1045
+msgid "<i class=\"icon-ok-sign icon-white\"></i> verify code"
+msgstr "<i class=\"icon-ok-sign icon-white\"></i> проверить код"
+
+#: includes/license-manager.class.php:1033
+msgid "Trial Activation"
+msgstr "Пробная активация"
+
+#: includes/license-manager.class.php:1037
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Click here</a> to send the activation "
+"request."
+msgstr "<a href=\"%s\">Нажмите здесь</a> чтобы отправить запрос на активацию."
+
+#: includes/license-manager.class.php:1082
+msgid "License Manager Internal Keys"
+msgstr "Системные Ключи"
+
+#: includes/license-manager.class.php:1083
+msgid ""
+"You actually don't need to change something here. Please change the values "
+"below only if OnePress supports ask you to do it."
+msgstr ""
+"Вам не нужно ничего изменять в этом разделе, если об этом вас не попросила "
+"служба поддержки OnePress."
+
+#: includes/license-manager.class.php:1092
+msgid "The changes has been saved successfully!"
+msgstr "Изменения были успешно сохранены!"
+
+#: includes/license-manager.class.php:1098
+msgid "The license has been reset successfully!"
+msgstr "Лицензия была успешно сброшена!"
+
+#: includes/license-manager.class.php:1103
+msgid "Site Secret"
+msgstr "Секретный сайт"
+
+#: includes/license-manager.class.php:1110
+msgid "Key Secret"
+msgstr "Секретный ключ"
+
+#: includes/license-manager.class.php:1118
+msgid "Save changes"
+msgstr "Сохранить"
+
+#: licensing.php:583
+msgid "License"
+msgstr "Лицензия"
+
+#: licensing.php:602
+#, php-format
+msgid ""
+"You use a premium version of the plugin. Please, verify your license key to "
+"unlock all its features. <a href=\"%1$s\">Click here</a>."
+msgstr ""
+"Вы используете премиум версию плагина. Пожалуйста зарегистрируйте свой "
+"лицензионный ключ, чтобы разблокировать все возможности плагина. <a href="
+"\"%1$s\">Нажмите здесь</a>."
+
+#: licensing.php:615
+#, php-format
+msgid ""
+"Need more features? Look at a <a target=\"_blank\" href=\"%1$s\">premium "
+"version</a> of the plugin."
+msgstr ""
+"Нужно больше возможностей? Взгляните на <a target=\"_blank\" href=\"%1$s"
+"\">премимум версию</a> плагина."
+
+#: licensing.php:660
+msgid "Your license key is not protected!"
+msgstr "Ваш лицензионный ключ не защищен!"
+
+#: licensing.php:661
+#, php-format
+msgid ""
+"Bind your license key (for %s) to your email address in order to avoid theft "
+"(it will take just a couple of seconds)."
+msgstr ""
+"Привяжите свой лицензионный ключ (для %s) к вашему электронному адресу, чтобы "
+"избежать кражи или потери ключа (это займет пару секунд)."
+
+#: licensing.php:668
+#, php-format
+msgid "Protect my key: %s"
+msgstr "Защитить мой ключ: %s"
+
+#: licensing.php:676 licensing.php:724 licensing.php:751
+msgid "Hide this message"
+msgstr "Скрыть сообщение"
+
+#: licensing.php:712
+#, php-format
+msgid "The trial key for the %s will expire during the day!"
+msgstr "Ваш пробный период для %s истекает в течение дня!"
+
+#: licensing.php:713
+msgid ""
+"Don't forget to purchase the premium key or delete the trial key to use the "
+"free version of the plugin."
+msgstr ""
+"Не забудьте приобрести премиум ключ или удалить пробный, чтобы использовать "
+"бесплатную версию плагина."
+
+#: licensing.php:719 licensing.php:746 licensing.php:778
+msgid "Buy a premium key now!"
+msgstr "Получить ключ"
+
+#: licensing.php:739
+#, php-format
+msgid "The trial key for the %s will expire in %s days."
+msgstr "Ваш пробный период для %s истекает через %s дн."
+
+#: licensing.php:740
+msgid ""
+"Please don't forget to purchase the premium key or delete the trial key to "
+"use the free version of the plugin."
+msgstr ""
+"Пожалуйста, не забудьте приобрести премиум ключ или удалить пробный, чтобы "
+"использовать бесплатную версию плагина."
+
+#: licensing.php:771
+#, php-format
+msgid "The trial key for the %s has expired."
+msgstr "Закончился пробный период для %s."
+
+#: licensing.php:772
+msgid ""
+"Please purchase another key or delete the current key to use the free version "
+"of the plugin."
+msgstr ""
+"Чтобы продолжить использовать плагин, пожалуйста, приобретите лицензионный "
+"ключ."
+
+#: licensing.php:783
+msgid "Visit the license manager"
+msgstr "Управление лицензией"
+
+#: licensing.php:808
+msgid "Thank you "
+msgstr "Спасибо"
+
+#: licensing.php:809
+#, php-format
+msgid ""
+" for purchasing <a target=\"_blank\" href=\"%s\" class=\"highlighted\">%s</a>."
+msgstr ""
+" за покупку плагина <a target=\"_blank\" href=\"%s\" class=\"highlighted\">"
+"%s</a>."
+
+#: licensing.php:810
+#, php-format
+msgid ""
+"Please verify your license key you got to unlock all the plugin features. "
+"Click the button on the right. Feel free to <a target=\"_blank\" href=\"%s"
+"\">contact us</a> if you need help."
+msgstr ""
+" Пожалуйста, активируйте ваш лицензионный ключ, который вы получили при "
+"покупке плагина. Чтобы ввести лицензионный ключ, нажмите кнопку справа. Если "
+"у вас возникнут какие-либо вопросы, вы можете задать их нашей <a target="
+"\"_blank\" href=\"%s\">службе поддержки</a>."
+
+#: licensing.php:816
+msgid "verify my license key"
+msgstr "Ввести лицензионный ключ"
+
+#~ msgid ""
+#~ "The premium version of the plugin is sold on <a href=\"http://onepress-"
+#~ "media.com/portfolio\" target=\"_blank\">CodeCanyon</a>."
+#~ msgstr ""
+#~ "Премимум версия плагина продается на <a href=\"http://onepress-media.com/"
+#~ "portfolio\" target=\"_blank\">CodeCanyon</a>."
+
+#~ msgid "Unable to get a trial license key."
+#~ msgstr "Невозможно получить пробный лицензионный ключ."
+
+#~ msgid "Unable to delete the license key."
+#~ msgstr "Неполучилось удалить лицензионный ключ."
+
+#~ msgid "Unable to check updates."
+#~ msgstr "Неполучилось проверить обнолвения."
+
+#~ msgid ""
+#~ "Thank you for using OnePress plugin. Feel free to contact us to get "
+#~ "support."
+#~ msgstr ""
+#~ "Спасибо за использование плагина OnePress.<br />Мы всегда рады помочь вам, "
+#~ "если вам нужна какая-либо помощь."
+
+#~ msgid ""
+#~ "Please <a href=\"%1$s\">click here</a> to refresh the page and apply "
+#~ "changes."
+#~ msgstr ""
+#~ "Пожалуйста, <a href=\"%1$s\">нажмите здесь</a> чтобы изменения вступили в "
+#~ "силу."
